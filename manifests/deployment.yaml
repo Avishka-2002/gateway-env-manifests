@@ -13,10 +13,10 @@ spec:
     metadata:
       labels:
         app: gateway
-        version: blue  # මුලින්ම Blue version එක විදිහට දාමු
+        version: green  # මුලින්ම Green version එක විදිහට දාමු
     spec:
       containers:
       - name: web-container
-        image: mgavishka/gateway-app:v1 # ඔයා push කරපු image එක
+        image: mgavishka/gateway-app:v2 # ඔයා push කරපු image එක
         ports:
         - containerPort: 80
